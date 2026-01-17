@@ -3,7 +3,7 @@ name: build-and-release
 on:
   push:
     tags:
-      - "1.0.0"
+      - "v*"
 
 permissions:
   contents: write
